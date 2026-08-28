@@ -1,4 +1,6 @@
-import { Github, Linkedin, Mail } from 'lucide-react/icons';
+import { Mail } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Navbar() {
@@ -18,10 +20,10 @@ export default function Navbar() {
           
           <div className="flex gap-4 border-l pl-6 border-gray-200">
             <a href={portfolioData.personalInfo.github} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-black transition-colors">
-              <Github size={18} />
+              <FaGithub size={18} />
             </a>
             <a href={portfolioData.personalInfo.linkedin} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-black transition-colors">
-              <Linkedin size={18} />
+              <FaLinkedin size={18} />
             </a>
             <a href={`mailto:${portfolioData.personalInfo.email}`} className="text-gray-500 hover:text-black transition-colors">
               <Mail size={18} />

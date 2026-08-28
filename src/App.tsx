@@ -1,5 +1,9 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Experience from './components/Experience';
+import Projects from './components/Projects';
+import Certifications from './components/Certifications';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -7,8 +11,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        {/* Experience, Projects, and Skills sections will go here next */}
+        <Experience />
+        <Projects />
+        <Certifications />
       </main>
+      <Footer />
     </div>
   );
 }
