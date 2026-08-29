@@ -24,9 +24,18 @@ export default function Education() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">{edu.degree}</h3>
             
             {/* El mt-auto asegura que la institución siempre quede al fondo, alineada con la otra tarjeta */}
-            <h4 className="text-base text-gray-500 font-medium mt-auto pt-5 border-t border-gray-50">
-              {edu.institution}
-            </h4>
+            <div className="mt-auto pt-5 border-t border-gray-50 flex items-center gap-3">
+              {edu.logo && (
+                <img 
+                  src={edu.logo} 
+                  alt={`${edu.institution} logo`} 
+                  className="w-10 h-10 rounded-full object-cover border border-gray-100 shadow-sm"
+                />
+              )}
+              <h4 className="text-base text-gray-500 font-medium">
+                {edu.institution}
+              </h4>
+            </div>
             
           </div>
         ))}

@@ -28,6 +28,28 @@ export const portfolioData = {
         apk: "https://drive.google.com/file/d/1Qo0MMeSwry0YX9LuSY6vvzusPOZdLsgE/view?usp=sharing",
       },
       featured: true,
+      details: {
+        features: [
+          "Property marketplace", "Real-time chat with Socket.IO", "Rental applications",
+          "KYC identity verification (WeeTrust / Mifiel)", "Secure document management",
+          "Digital contracts", "Electronic signatures (NOM-151)", "Stripe payment processing",
+          "Multi-language support", "Multi-currency support", "Offline cache with AsyncStorage",
+          "Role-based access control", "Administrative dashboard"
+        ],
+        architecture: {
+          mobile: ["React Native", "Expo", "Expo Router", "Context API", "Axios Interceptors", "Socket.IO Client", "AsyncStorage", "SecureStore", "React Native Maps", "Expo Location"],
+          backend: ["Node.js", "Express.js", "TypeScript", "Prisma ORM", "PostgreSQL", "JWT Authentication", "Refresh Token Rotation", "Zod Validation", "Bcrypt", "Socket.IO", "REST API"],
+          infrastructure: ["Docker", "AWS S3", "Render", "Linux", "Nginx", "Plesk"]
+        },
+        database: [
+          "PostgreSQL + Prisma ORM", "State Machine with ENUMs", "Transactional workflows",
+          "Soft deletes", "Audit logs", "JSONB fields", "Optimized indexes", "Foreign key integrity"
+        ],
+        security: [
+          "JWT + Refresh Tokens", "RBAC (Role-Based Access Control)", "Signed URLs for documents",
+          "Password hashing (Bcrypt)", "Rate limiting", "Helmet protection", "Secure file storage", "KYC verification"
+        ]
+      }
     },
     {
       id: "snapcocodrilo",
@@ -136,47 +158,54 @@ export const portfolioData = {
       company: "Easy Place",
       period: "2026",
       description: "Designed and developed a PropTech and LegalTech platform. Implemented digital signatures, secure payments, real-time chat, and a full administrative panel.",
-      technologies: ["React Native", "Expo", "Node.js", "PostgreSQL", "Socket.IO", "Docker", "Stripe"]
+      technologies: ["React Native", "Expo", "Node.js", "PostgreSQL", "Socket.IO", "Docker", "Stripe"],
+      logo: "/logo_easy_place.png"
     },
     {
       role: "Tech Bootcamp Scholar",
       company: "Bécalos TechnoReady In-México (Monterrey)",
       period: "2025",
       description: "Developed backend, frontend, and data-driven systems in SCRUM environments. Built REST APIs, e-commerce platforms, and automated testing systems.",
-      technologies: ["Java", "Spring Boot", "Git", "MongoDB", "JUnit", "MySQL"]
+      technologies: ["Java", "Spring Boot", "Git", "MongoDB", "JUnit", "MySQL"],
+      logo: "/techno.svg"
     },
     {
       role: "Data Analysis Intern",
       company: "Industrias Michelin",
       period: "2025",
       description: "Created KPI dashboards and transformed raw data for business decision-making. Integrated BI tools with Oracle databases.",
-      technologies: ["PI-Vision", "MicroStrategy", "Oracle SQL", "SQL Server", "Power BI"]
+      technologies: ["PI-Vision", "MicroStrategy", "Oracle SQL", "SQL Server", "Power BI"],
+      logo: "/logo-Michelin.png"
     },
     {
       role: "Software Developer Intern",
       company: "Flashback",
       period: "2024",
       description: "Developed and maintained interactive web interfaces and components.",
-      technologies: ["React", "JavaScript", "Node.js", "Express.js", "Vite"]
+      technologies: ["React", "JavaScript", "Node.js", "Express.js", "Vite"],
+      logo: "/fls_logo.png"
     },
     {
       role: "Full-Stack Intern",
       company: "Le Rochelle Real Estate",
       period: "2023",
       description: "Built MVC web applications tailored for property management with modern UI design.",
-      technologies: ["PHP", "MySQL", "Tailwind CSS", "CodeIgniter", "jQuery"]
+      technologies: ["PHP", "MySQL", "Tailwind CSS", "CodeIgniter", "jQuery"],
+      logo: "/lerochelle.ico"
     }
   ],
   education: [
     {
       degree: "B.Eng. in Software Development and Management Engineering",
-      institution: "UTEQ",
-      period: "2021 – 2025"
+      institution: "Universidad Tecnológica de Querétaro (UTEQ)",
+      period: "2021 – 2025",
+      logo: "/logo_uteq.jpeg"
     },
     {
       degree: "Technical High School Diploma",
-      institution: "CBTA No.34",
-      period: "2018 – 2021"
+      institution: "Centro de Bachillerato Tecnológico Agropecuario No. 34 (CBTA)",
+      period: "2018 – 2021",
+      logo: "/logo_cbta.jpeg"
     }
   ],
   languages: [
