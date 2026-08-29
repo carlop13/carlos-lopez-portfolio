@@ -8,12 +8,13 @@ export default function Navbar() {
     <nav className="fixed w-full top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <a href="#" className="font-bold text-xl tracking-tighter text-gray-900">
-          CL.
+          Carlos Guadalupe López Trejo
         </a>
         
         <div className="flex gap-6 items-center">
           <div className="hidden md:flex gap-6 text-sm font-medium text-gray-600">
             <a href="#about" className="hover:text-black transition-colors">About</a>
+            <a href="#education" className="hover:text-black transition-colors">Education</a>
             <a href="#experience" className="hover:text-black transition-colors">Experience</a>
             <a href="#projects" className="hover:text-black transition-colors">Projects</a>
           </div>

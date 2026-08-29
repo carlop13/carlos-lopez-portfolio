@@ -21,7 +21,7 @@ export const portfolioData = {
       id: "easy-place",
       title: "Easy Place — PropTech + LegalTech Platform",
       description: "A complete platform that digitalizes the rental process through KYC identity verification, legal document management, digital signatures (NOM-151), secure payments via Stripe, and real-time communication.",
-      technologies: ["Node.js", "React Native", "PostgreSQL", "Prisma", "AWS S3", "Socket.IO"],
+      technologies: ["Node.js", "React Native", "PostgreSQL", "Prisma", "AWS S3", "Socket.IO", "Weetrust", "Stripe"],
       links: {
         adminPanel: "https://easy-place-admin.vercel.app/",
         apiDocs: "https://documenter.getpostman.com/view/24519066/2sBY4TqJPR",
@@ -30,36 +30,24 @@ export const portfolioData = {
       featured: true,
     },
     {
-      id: "taskconnect",
-      title: "TaskConnect",
-      description: "A task management and connectivity platform designed to streamline workflow and improve productivity.",
-      technologies: ["React", "TypeScript", "Vite", "Node.js"],
+      id: "snapcocodrilo",
+      title: "SnapCocodrilo (YouTube Downloader)",
+      description: "A robust mobile application to download media, built with cross-platform technologies.",
+      technologies: ["React Native", "Expo", "Express.js"],
       links: {
-        repo: "https://github.com/carlop13/taskconnect",
-        live: "https://taskconnect.vercel.app/",
+        repo: "https://github.com/carlop13/youtube-downloader-app",
+        apk: "https://drive.google.com/file/d/1QZW-0jir1n9K06GQUMHT9KS3fbL-NyLC/view",
       },
-      featured: true,
-    },
-    {
-      id: "agricultura-inteligente",
-      title: "Gotita de Agua - Smart Irrigation System",
-      description: "IoT-based smart irrigation mobile application built to optimize water usage. Winner at UTEQ.",
-      technologies: ["Kotlin", "PHP", "Firebase", "Arduino", "ESP32"],
-      links: {
-        repo: "https://github.com/carlop13/agricultura-inteligente",
-        video: "https://www.youtube.com/shorts/Qu7RhS2lDTw",
-        docs: "https://drive.google.com/file/d/1c03cZ84FM6ImIAKnkYTmsywKvJhaVCj8/view?usp=sharing",
-      },
-      featured: true,
+      featured: false,
     },
     {
       id: "safe-alert-mobile",
       title: "Safe Alert Mobile",
       description: "Mobile application for emergency alerts featuring real-time geolocation tracking.",
-      technologies: ["React Native", "Expo", "Node.js"],
+      technologies: ["React Native", "Expo", "Node.js", "Firebase"],
       links: {
         repo: "https://github.com/carlop13/safe-alert-movil",
-        apk: "https://drive.google.com/file/d/1jv-PbZjp6U8OzKFMkk3R-5vo06cS06s7/view",
+        video: "https://drive.google.com/file/d/1jv-PbZjp6U8OzKFMkk3R-5vo06cS06s7/view",
       },
       featured: false,
     },
@@ -67,10 +55,10 @@ export const portfolioData = {
       id: "safe-alert-watch",
       title: "Safe Alert Smartwatch",
       description: "Wearable integration for the Safe Alert ecosystem, allowing rapid emergency signaling.",
-      technologies: ["Android Wear OS", "Java"],
+      technologies: ["Android Wear OS", "Kotlin"],
       links: {
         repo: "https://github.com/carlop13/safe-alert-smart-watch",
-        apk: "https://drive.google.com/file/d/1ji49PWVQtyMoFKS5ixg1I0_eXoKCKkgt/view",
+        video: "https://drive.google.com/file/d/1ji49PWVQtyMoFKS5ixg1I0_eXoKCKkgt/view",
       },
       featured: false,
     },
@@ -78,7 +66,7 @@ export const portfolioData = {
       id: "le-rochelle",
       title: "Le Rochelle Real Estate",
       description: "Real estate management platform tailored for property listings and client interactions.",
-      technologies: ["PHP", "CodeIgniter", "MySQL", "TailwindCSS"],
+      technologies: ["PHP", "CodeIgniter", "MySQL", "TailwindCSS", "jQuery"],
       links: {
         repo: "https://github.com/carlop13/le-rochelle",
         live: "https://lerochelle.kesug.com/",
@@ -89,29 +77,41 @@ export const portfolioData = {
       id: "la-pulga",
       title: "La Pulga E-Commerce",
       description: "E-commerce platform featuring a complete product catalog, automated invoicing, and geolocation.",
-      technologies: ["PHP", "CodeIgniter", "MySQL"],
+      technologies: ["PHP", "CodeIgniter", "MySQL", "Jquery"],
       links: {
         repo: "https://github.com/carlop13/la-pulga",
         live: "https://lapulga.kesug.com/",
       },
       featured: false,
     },
-    {
-      id: "snapcocodrilo",
-      title: "SnapCocodrilo (YouTube Downloader)",
-      description: "A robust mobile application to download media, built with cross-platform technologies.",
-      technologies: ["React Native", "Expo"],
+        {
+      id: "agricultura-inteligente",
+      title: "Agricultura Inteligente - Smart Irrigation System",
+      description: "IoT-based smart irrigation mobile application built to optimize water usage. Winner at UTEQ.",
+      technologies: ["Kotlin", "PHP", "Firebase", "Arduino", "ESP32"],
       links: {
-        repo: "https://github.com/carlop13/youtube-downloader-app",
-        apk: "https://drive.google.com/file/d/1QZW-0jir1n9K06GQUMHT9KS3fbL-NyLC/view",
+        repo: "https://github.com/carlop13/agricultura-inteligente",
+        video: "https://www.youtube.com/shorts/Qu7RhS2lDTw",
+        docs: "https://drive.google.com/file/d/1c03cZ84FM6ImIAKnkYTmsywKvJhaVCj8/view?usp=sharing",
       },
-      featured: false,
+      featured: true,
+    },
+    {
+      id: "taskconnect",
+      title: "TaskConnect",
+      description: "A task management and connectivity platform designed to streamline workflow and improve productivity.",
+      technologies: ["React", "TypeScript", "Vite", "Node.js", "MongoDB"],
+      links: {
+        repo: "https://github.com/carlop13/taskconnect",
+        live: "https://taskconnect.vercel.app/",
+      },
+      featured: true,
     }
   ],
   certifications: [
     {
       title: "Back End Developer Core",
-      issuer: "Credly",
+      issuer: "Universidad Tecmilenio / Credly",
       link: "https://www.credly.com/badges/f929c909-ad02-44e4-8bc2-5e51b23f73ed",
     },
     {
@@ -120,19 +120,14 @@ export const portfolioData = {
       link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
     },
     {
-      title: "Google Cybersecurity Professional",
-      issuer: "Google",
-      link: "#", // Add link when available
-    },
-    {
       title: "Microsoft Productivity Tools (ECE239)",
       issuer: "CONOCER",
-      link: "#", // Add link when available
+      link: "https://drive.google.com/file/d/1jphcIriI8Dcxqp6OaLkFRV2HpRToZpV4/view?usp=sharing", // Add link when available
     },
     {
       title: "Mendix Certification",
       issuer: "Mendix",
-      link: "image-reference", // We will handle this image render in the UI components
+      link: "https://drive.google.com/file/d/1E3mTENBVvkSFeMVL58W0hKAY4bh3fbTG/view?usp=sharing", // We will handle this image render in the UI components
     }
   ],
   experience: [
@@ -145,17 +140,17 @@ export const portfolioData = {
     },
     {
       role: "Tech Bootcamp Scholar",
-      company: "Bécalos TechnoReady In-México",
+      company: "Bécalos TechnoReady In-México (Monterrey)",
       period: "2025",
       description: "Developed backend, frontend, and data-driven systems in SCRUM environments. Built REST APIs, e-commerce platforms, and automated testing systems.",
-      technologies: ["Java", "Spring Boot", "Node.js", "MongoDB", "JUnit", "MySQL"]
+      technologies: ["Java", "Spring Boot", "Git", "MongoDB", "JUnit", "MySQL"]
     },
     {
       role: "Data Analysis Intern",
       company: "Industrias Michelin",
       period: "2025",
       description: "Created KPI dashboards and transformed raw data for business decision-making. Integrated BI tools with Oracle databases.",
-      technologies: ["PI-Vision", "MicroStrategy", "Oracle SQL", "Power BI"]
+      technologies: ["PI-Vision", "MicroStrategy", "Oracle SQL", "SQL Server", "Power BI"]
     },
     {
       role: "Software Developer Intern",
@@ -169,7 +164,7 @@ export const portfolioData = {
       company: "Le Rochelle Real Estate",
       period: "2023",
       description: "Built MVC web applications tailored for property management with modern UI design.",
-      technologies: ["PHP", "MySQL", "Tailwind CSS", "CodeIgniter"]
+      technologies: ["PHP", "MySQL", "Tailwind CSS", "CodeIgniter", "jQuery"]
     }
   ],
   education: [
