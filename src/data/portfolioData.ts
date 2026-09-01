@@ -25,7 +25,7 @@ export const portfolioData = {
       links: {
         adminPanel: "https://easy-place-admin.vercel.app/",
         apiDocs: "https://documenter.getpostman.com/view/24519066/2sBY4TqJPR",
-        apk: "https://drive.google.com/file/d/1Qo0MMeSwry0YX9LuSY6vvzusPOZdLsgE/view?usp=sharing",
+        apk: "https://drive.google.com/file/d/1h9RKlSWtbjuM9DACFgKVbRwpcX3oMuls/view?usp=sharing",
       },
       featured: true,
       details: {

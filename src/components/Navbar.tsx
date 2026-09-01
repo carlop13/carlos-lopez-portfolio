@@ -17,6 +17,7 @@ export default function Navbar() {
             <a href="#education" className="hover:text-black transition-colors">Education</a>
             <a href="#experience" className="hover:text-black transition-colors">Experience</a>
             <a href="#projects" className="hover:text-black transition-colors">Projects</a>
+            <a href="#certifications" className="hover:text-black transition-colors">Certifications</a>
           </div>
           
           <div className="flex gap-4 border-l pl-6 border-gray-200">
