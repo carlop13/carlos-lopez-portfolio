@@ -1,9 +1,11 @@
-import { Mail } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+import { Mail, Phone } from 'lucide-react';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { portfolioData } from '../data/portfolioData';
 
 export default function Navbar() {
+  // Limpiamos el número para que quede solo "524423535507" para las URLs
+  const cleanPhone = portfolioData.personalInfo.phone.replace(/\D/g, '');
+
   return (
     <nav className="fixed w-full top-0 bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -30,6 +32,15 @@ export default function Navbar() {
             <a href={`mailto:${portfolioData.personalInfo.email}`} className="text-gray-500 hover:text-black transition-colors">
               <Mail size={18} />
             </a>
+            {/* Ícono de WhatsApp */}
+            <a href={`https://wa.me/${cleanPhone}`} target="_blank" rel="noreferrer" className="text-gray-500 hover:text-black transition-colors">
+              <FaWhatsapp size={18} />
+            </a>
+            {/* Ícono de Teléfono Normal (Puedes borrar este bloque si decides dejar solo WhatsApp) 
+            <a href={`tel:+${cleanPhone}`} className="text-gray-500 hover:text-black transition-colors">
+              <Phone size={18} />
+            </a>
+            */}
           </div>
         </div>
       </div>

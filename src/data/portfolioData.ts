@@ -65,23 +65,30 @@ export const portfolioData = {
     {
       id: "safe-alert-mobile",
       title: "Safe Alert Mobile",
-      description: "Mobile application for emergency alerts featuring real-time geolocation tracking.",
+      description: "Personal safety mobile application that allows users to manage trusted emergency contacts, configure personalized emergency messages, and connect with a smartwatch to trigger emergency alerts with their current location.",
       technologies: ["React Native", "Expo", "Node.js", "Firebase"],
       links: {
         repo: "https://github.com/carlop13/safe-alert-movil",
-        video: "https://drive.google.com/file/d/1jv-PbZjp6U8OzKFMkk3R-5vo06cS06s7/view",
+        video: "https://www.youtube.com/watch?v=18uIWOGtsoU",
+        docs: "https://drive.google.com/file/d/11MlxstHKMU8OFUmdWotkRlV4hiCIfYGf/view?usp=sharing",
       },
       featured: false,
     },
     {
       id: "safe-alert-watch",
+
       title: "Safe Alert Smartwatch",
-      description: "Wearable integration for the Safe Alert ecosystem, allowing rapid emergency signaling.",
+
+      description: "Wear OS smartwatch app for Safe Alert, enabling quick emergency alerts with the user's location and configured message.",
+
       technologies: ["Android Wear OS", "Kotlin"],
+
       links: {
         repo: "https://github.com/carlop13/safe-alert-smart-watch",
-        video: "https://drive.google.com/file/d/1ji49PWVQtyMoFKS5ixg1I0_eXoKCKkgt/view",
+        video: "https://www.youtube.com/watch?v=tFusCwGOLRA",
+        apk: "https://drive.google.com/file/d/1_EFUZvsUkefIjWPqQRaopuQFD2xBH4j/view?usp=sharing",
       },
+
       featured: false,
     },
     {
@@ -125,31 +132,41 @@ export const portfolioData = {
       technologies: ["React", "TypeScript", "Vite", "Node.js", "MongoDB"],
       links: {
         repo: "https://github.com/carlop13/taskconnect",
-        live: "https://taskconnect.vercel.app/",
+        live: "https://taskconnect-delta.vercel.app/",
       },
       featured: true,
     }
   ],
-  certifications: [
+certifications: [
+    {
+      title: "Google Cloud Computing Foundations Certificate",
+      issuer: "Google Cloud / Credly",
+      link: "https://www.credly.com/badges/083a8e80-1393-4123-8fe1-b0e851a1daac/public_url",
+      image: "/google-cloud.png"
+    },
     {
       title: "Back End Developer Core",
       issuer: "Universidad Tecmilenio / Credly",
       link: "https://www.credly.com/badges/f929c909-ad02-44e4-8bc2-5e51b23f73ed",
+      image: "/tecmilenio.png"
     },
     {
       title: "Introduction to Packet Tracer",
       issuer: "Cisco / Credly",
       link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
+      image: "/cisco.png"
     },
     {
       title: "Microsoft Productivity Tools (ECE239)",
       issuer: "CONOCER",
-      link: "https://drive.google.com/file/d/1jphcIriI8Dcxqp6OaLkFRV2HpRToZpV4/view?usp=sharing", // Add link when available
+      link: "https://drive.google.com/file/d/1jphcIriI8Dcxqp6OaLkFRV2HpRToZpV4/view?usp=sharing",
+      image: "/conocer.png"
     },
     {
       title: "Mendix Certification",
       issuer: "Mendix",
-      link: "https://drive.google.com/file/d/1E3mTENBVvkSFeMVL58W0hKAY4bh3fbTG/view?usp=sharing", // We will handle this image render in the UI components
+      link: "https://drive.google.com/file/d/1E3mTENBVvkSFeMVL58W0hKAY4bh3fbTG/view?usp=sharing",
+      image: "/rapid.png"
     }
   ],
   experience: [
@@ -208,9 +225,9 @@ export const portfolioData = {
       logo: "/logo_cbta.jpeg"
     }
   ],
-  languages: [
-    { name: "Spanish", level: "Native" },
-    { name: "English", level: "B2 - High Intermediate", certificate: "https://app.voxy.com/certificates/proficiency-test/6a3ee8c3f562ffe3bfcd0dbd/" },
-    { name: "French", level: "A2" }
+languages: [
+    { name: "🇲🇽 Spanish", level: "Native" },
+    { name: "🇬🇧 English", level: "B2 - High Intermediate", certificate: "https://app.voxy.com/certificates/proficiency-test/6a3ee8c3f562ffe3bfcd0dbd/" },
+    { name: "🇫🇷 French", level: "A2" }
   ]
 };
