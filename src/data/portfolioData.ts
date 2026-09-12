@@ -228,6 +228,6 @@ certifications: [
 languages: [
     { name: "🇲🇽 Spanish", level: "Native" },
     { name: "🇬🇧 English", level: "B2 - High Intermediate", certificate: "https://app.voxy.com/certificates/proficiency-test/6a3ee8c3f562ffe3bfcd0dbd/" },
-    { name: "🇫🇷 French", level: "A2" }
+    { name: "🇫🇷 French", level: "A2 - Basic", certificate: "https://drive.google.com/file/d/1Ip06ElokgBmIz6JhULiBi4WhWjv-WdHr/view?usp=sharing" }
   ]
 };
