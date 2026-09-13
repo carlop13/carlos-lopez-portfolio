@@ -23,6 +23,17 @@ export default function Projects() {
         {portfolioData.projects.map((project) => (
           <div key={project.id} className="bg-white rounded-3xl p-8 shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 flex flex-col h-full hover:-translate-y-1 transition-transform duration-300">
             
+            {/* Imagen del Proyecto */}
+            {project.image && (
+              <div className="mb-6 rounded-2xl overflow-hidden h-48 bg-gray-50 flex-shrink-0">
+                <img 
+                  src={project.image} 
+                  alt={`${project.title} preview`} 
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+            )}
+
             <div className="mb-4">
               <h3 className="text-xl font-bold text-gray-900">{project.title}</h3>
             </div>
@@ -179,6 +190,22 @@ export default function Projects() {
                       ))}
                     </ul>
                   </div>
+
+                  {/* External APIs */}
+                  {easyPlaceData.details.externalAPIs && (
+                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+                      <h3 className="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+                        🔌 Integrations & APIs
+                      </h3>
+                      <ul className="space-y-3">
+                        {easyPlaceData.details.externalAPIs.map((item, i) => (
+                          <li key={i} className="text-sm text-gray-600 flex items-start gap-2">
+                            <CheckCircle2 size={16} className="text-[#248277] shrink-0 mt-0.5" /> {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
                 </div>
               </div>

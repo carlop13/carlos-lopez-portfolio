@@ -16,12 +16,13 @@ export const portfolioData = {
     databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
     infrastructure: ["AWS (S3, EC2, RDS)", "Docker", "Linux", "Nginx"],
   },
-  projects: [
+projects: [
     {
       id: "easy-place",
       title: "Easy Place — PropTech + LegalTech Platform",
-      description: "A complete platform that digitalizes the rental process through KYC identity verification, legal document management, digital signatures (NOM-151), secure payments via Stripe, and real-time communication.",
-      technologies: ["Node.js", "React Native", "PostgreSQL", "Prisma", "AWS S3", "Socket.IO", "Weetrust", "Stripe"],
+      description: "PropTech platform digitalizing the rental process with KYC verification, legal document management, NOM-151 digital signatures, Stripe payments, and real-time chat.",
+      technologies: ["Node.js", "React Native", "PostgreSQL", "Prisma", "AWS S3", "Socket.IO"],
+      image: "/logo_easy_place.png",
       links: {
         adminPanel: "https://easy-place-admin.vercel.app/",
         apiDocs: "https://documenter.getpostman.com/view/24519066/2sBY4TqJPR",
@@ -48,6 +49,10 @@ export const portfolioData = {
         security: [
           "JWT + Refresh Tokens", "RBAC (Role-Based Access Control)", "Signed URLs for documents",
           "Password hashing (Bcrypt)", "Rate limiting", "Helmet protection", "Secure file storage", "KYC verification"
+        ],
+        externalAPIs: [
+          "WeeTrust: KYC Identity Verification & NOM-151 Digital Signatures",
+          "Stripe: Secure Payment Processing"
         ]
       }
     },
@@ -56,6 +61,7 @@ export const portfolioData = {
       title: "SnapCocodrilo (YouTube Downloader)",
       description: "A robust mobile application to download media, built with cross-platform technologies.",
       technologies: ["React Native", "Expo", "Express.js"],
+      image: "/snapcocodrilo.png",
       links: {
         repo: "https://github.com/carlop13/youtube-downloader-app",
         apk: "https://drive.google.com/file/d/1QZW-0jir1n9K06GQUMHT9KS3fbL-NyLC/view",
@@ -65,8 +71,9 @@ export const portfolioData = {
     {
       id: "safe-alert-mobile",
       title: "Safe Alert Mobile",
-      description: "Personal safety mobile application that allows users to manage trusted emergency contacts, configure personalized emergency messages, and connect with a smartwatch to trigger emergency alerts with their current location.",
+      description: "Mobile safety app that pairs with a smartwatch to trigger instant, location-based emergency alerts to trusted contacts.",
       technologies: ["React Native", "Expo", "Node.js", "Firebase"],
+      image: "/safe-alert.png",
       links: {
         repo: "https://github.com/carlop13/safe-alert-movil",
         video: "https://www.youtube.com/watch?v=18uIWOGtsoU",
@@ -76,19 +83,15 @@ export const portfolioData = {
     },
     {
       id: "safe-alert-watch",
-
       title: "Safe Alert Smartwatch",
-
       description: "Wear OS smartwatch app for Safe Alert, enabling quick emergency alerts with the user's location and configured message.",
-
       technologies: ["Android Wear OS", "Kotlin"],
-
+      image: "/safe-alert.png",
       links: {
         repo: "https://github.com/carlop13/safe-alert-smart-watch",
         video: "https://www.youtube.com/watch?v=tFusCwGOLRA",
         apk: "https://drive.google.com/file/d/1_EFUZvsUkefIjWPqQRaopuQFD2xBH4j/view?usp=sharing",
       },
-
       featured: false,
     },
     {
@@ -96,6 +99,7 @@ export const portfolioData = {
       title: "Le Rochelle Real Estate",
       description: "Real estate management platform tailored for property listings and client interactions.",
       technologies: ["PHP", "CodeIgniter", "MySQL", "TailwindCSS", "jQuery"],
+      image: "/lerochelle.jpg",
       links: {
         repo: "https://github.com/carlop13/le-rochelle",
         live: "https://lerochelle.kesug.com/",
@@ -107,17 +111,19 @@ export const portfolioData = {
       title: "La Pulga E-Commerce",
       description: "E-commerce platform featuring a complete product catalog, automated invoicing, and geolocation.",
       technologies: ["PHP", "CodeIgniter", "MySQL", "Jquery"],
+      image: "/la-pulga.jpg",
       links: {
         repo: "https://github.com/carlop13/la-pulga",
         live: "https://lapulga.kesug.com/",
       },
       featured: false,
     },
-        {
+    {
       id: "agricultura-inteligente",
       title: "Agricultura Inteligente - Smart Irrigation System",
       description: "IoT-based smart irrigation mobile application built to optimize water usage. Winner at UTEQ.",
       technologies: ["Kotlin", "PHP", "Firebase", "Arduino", "ESP32"],
+      image: "/agricultura-inteligente.png",
       links: {
         repo: "https://github.com/carlop13/agricultura-inteligente",
         video: "https://www.youtube.com/shorts/Qu7RhS2lDTw",
@@ -130,6 +136,7 @@ export const portfolioData = {
       title: "TaskConnect",
       description: "A task management and connectivity platform designed to streamline workflow and improve productivity.",
       technologies: ["React", "TypeScript", "Vite", "Node.js", "MongoDB"],
+      image: "/taskconnect.png",
       links: {
         repo: "https://github.com/carlop13/taskconnect",
         live: "https://taskconnect-delta.vercel.app/",
