@@ -14,7 +14,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-            <div className="flex items-center gap-2 text-sm font-medium text-gray-500 mb-6">
+          <div className="flex items-center gap-2 text-sm font-medium text-gray-500 mb-6">
             <MapPin size={16} />
             <span>{location}</span>
           </div>
@@ -38,6 +38,25 @@ export default function Hero() {
               View my work
             </a>
           </div>
+
+          {/* Sección de Tutor de Español - Versión Atractiva */}
+          <a 
+            href="https://preply.in/CARLOS6ES35033490102?ts=17896940" 
+            target="_blank" 
+            rel="noreferrer" 
+            className="mt-10 inline-flex items-center gap-3 px-5 py-3 rounded-2xl bg-gradient-to-r from-indigo-50 to-purple-50 border border-indigo-100 hover:border-indigo-200 hover:shadow-md transition-all w-fit group"
+          >
+            <span className="text-xl">🇲🇽</span>
+            <span className="text-sm font-medium text-gray-700">
+              I'm a Spanish teacher too! 
+              <span className="text-[#2e3192] font-bold ml-1.5 group-hover:underline">
+                Visit my profile
+              </span>
+            </span>
+            <span className="text-[#2e3192] group-hover:translate-x-1 transition-transform">
+              &rarr;
+            </span>
+          </a>
         </motion.div>
 
         <motion.div 
