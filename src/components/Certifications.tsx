@@ -7,12 +7,16 @@ export default function Certifications() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         
         {/* Certifications Card */}
-        <div className="bg-white rounded-3xl p-8 md:p-10 shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 h-full">
-          <div className="flex items-center gap-3 mb-8">
+        <div className="bg-white rounded-3xl p-8 md:p-10 shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 h-full flex flex-col">
+          <div className="flex items-center gap-3 mb-8 flex-shrink-0">
             <Award className="text-[#248277]" size={28} />
-            <h2 className="text-2xl font-bold tracking-tight text-[#1e3a8a]">Certifications</h2>
+            <h2 className="text-2xl font-bold tracking-tight text-[#1e3a8a]">
+              Certifications <span className="text-gray-400 font-medium text-xl">({portfolioData.certifications.length})</span>
+            </h2>
           </div>
-          <div className="flex flex-col gap-6">
+          
+          {/* Contenedor con Scroll */}
+          <div className="flex flex-col gap-6 overflow-y-auto max-h-[500px] pr-2 scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent hover:scrollbar-thumb-gray-300">
             {portfolioData.certifications.map((cert, index) => {
               const hasValidLink = cert.link && cert.link !== "#" && cert.link !== "image-reference";
               
@@ -54,7 +58,7 @@ export default function Certifications() {
 
         {/* Languages Card */}
         <div className="bg-white rounded-3xl p-8 md:p-10 shadow-[0_4px_20px_rgb(0,0,0,0.04)] border border-gray-100 h-full">
-          <div className="flex items-center gap-3 mb-8">
+          <div className="flex items-center gap-3 mb-8 flex-shrink-0">
             <Globe className="text-[#248277]" size={28} />
             <h2 className="text-2xl font-bold tracking-tight text-[#1e3a8a]">Languages</h2>
           </div>

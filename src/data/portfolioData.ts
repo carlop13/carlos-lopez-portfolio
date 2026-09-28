@@ -158,6 +158,12 @@ certifications: [
       image: "/tecmilenio.png"
     },
     {
+      title: "How to teach a language",
+      issuer: "Preply Tutors Academy",
+      link: "https://preply-tutors-academy.thinkific.com/certificates/eruhewjcsb",
+      image: "/preply.png"
+    },
+    {
       title: "Introduction to Packet Tracer",
       issuer: "Cisco / Credly",
       link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
