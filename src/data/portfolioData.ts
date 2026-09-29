@@ -146,6 +146,12 @@ projects: [
   ],
 certifications: [
     {
+      title: "Google Cloud Cybersecurity Certificate",
+      issuer: "Google Cloud / Credly",
+      link: "https://www.credly.com/badges/3a358c2d-535a-4e9a-a8c8-d59075487e22/public_url",
+      image: "/googlesecurity.png"
+    },
+    {
       title: "Google Cloud Computing Foundations Certificate",
       issuer: "Google Cloud / Credly",
       link: "https://www.credly.com/badges/083a8e80-1393-4123-8fe1-b0e851a1daac/public_url",
