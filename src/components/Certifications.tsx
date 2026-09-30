@@ -54,6 +54,23 @@ export default function Certifications() {
               );
             })}
           </div>
+
+          {/* Enlace a Credly (Discreto y Elegante) */}
+          <div className="mt-6 pt-5 border-t border-gray-100 flex justify-center">
+            <a 
+              href="https://www.credly.com/users/carlos-lopez-trejo/badges/credly" 
+              target="_blank" 
+              rel="noreferrer"
+              className="flex items-center gap-2 text-sm text-gray-400 hover:text-[#248277] transition-colors font-medium group"
+            >
+              <img 
+                src="/credly.png" 
+                alt="Credly logo" 
+                className="w-5 h-5 object-contain grayscale group-hover:grayscale-0 opacity-70 group-hover:opacity-100 transition-all" 
+              />
+              View all my badges on Credly &rarr;
+            </a>
+          </div>
         </div>
 
         {/* Languages Card */}
