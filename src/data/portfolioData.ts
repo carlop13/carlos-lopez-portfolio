@@ -64,6 +64,7 @@ projects: [
       image: "/snapcocodrilo.png",
       links: {
         repo: "https://github.com/carlop13/youtube-downloader-app",
+        video: "https://drive.google.com/file/d/1919b4vS1Muy5-7UwXplByZ0CFOf3aggC/view?usp=sharing",
         apk: "https://drive.google.com/file/d/1QZW-0jir1n9K06GQUMHT9KS3fbL-NyLC/view",
       },
       featured: false,
