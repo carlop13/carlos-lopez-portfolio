@@ -147,6 +147,12 @@ projects: [
   ],
 certifications: [
     {
+      title: "Google Cloud Data Analytics Certificate",
+      issuer: "Google Cloud / Credly",
+      link: "https://www.credly.com/badges/2c106245-43af-4775-b08a-63473bad6653/public_url",
+      image: "/googledata.png"
+    },
+    {
       title: "Google Cloud Cybersecurity Certificate",
       issuer: "Google Cloud / Credly",
       link: "https://www.credly.com/badges/3a358c2d-535a-4e9a-a8c8-d59075487e22/public_url",
