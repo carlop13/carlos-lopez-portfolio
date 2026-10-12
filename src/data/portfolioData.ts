@@ -178,9 +178,15 @@ certifications: [
     },
     {
       title: "Introduction to Packet Tracer",
-      issuer: "Cisco / Credly",
+      issuer: "Cisco Networking Academy / Credly",
       link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
       image: "/cisco.png"
+    },
+    {
+      title: "Partner: NDG Linux Essentials",
+      issuer: "Cisco Networking Academy",
+      link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
+      image: "/2_0.png"
     },
     {
       title: "Microsoft Productivity Tools (ECE239)",
