@@ -185,7 +185,7 @@ certifications: [
     {
       title: "Partner: NDG Linux Essentials",
       issuer: "Cisco Networking Academy",
-      link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
+      link: "https://drive.google.com/file/d/19fLLc9fnu08FVSIjdjFErb9pVi4EKOKu/view?usp=sharing",
       image: "/2_0.png"
     },
     {
