@@ -203,6 +203,14 @@ certifications: [
   ],
   experience: [
     {
+      role: "Senior Software Engineer",
+      company: "Grupo Coppel",
+      period: "Oct 2026 - Present",
+      description: "Developing robust full-stack applications and micro-frontends for the Commercial and Digital divisions. Focused on building scalable interfaces, integrating GraphQL APIs, and managing cloud deployments on GCP.",
+      technologies: ["TypeScript", "ReactJS", "Next.js", "Angular", "GraphQL", "Module Federation", "PostgreSQL", "GCP"],
+      logo: "/coppel.png"
+    },
+    {
       role: "Software Engineer",
       company: "Easy Place",
       period: "2026",
