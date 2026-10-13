@@ -177,6 +177,12 @@ certifications: [
       image: "/preply.png"
     },
     {
+      title: "Introduction to IoT",
+      issuer: "Cisco Networking Academy / Credly",
+      link: "https://www.credly.com/badges/c1877d4f-6623-4ac6-8727-792582dc5872/public_url",
+      image: "/Intro2IoT.png"
+    },
+    {
       title: "Introduction to Packet Tracer",
       issuer: "Cisco Networking Academy / Credly",
       link: "https://www.credly.com/badges/f762ec64-f5e1-477b-b324-1e136d7302fc",
