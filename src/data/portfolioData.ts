@@ -177,6 +177,12 @@ certifications: [
       image: "/preply.png"
     },
     {
+      title: "Introduction to Modern AI",
+      issuer: "Cisco Networking Academy / Credly",
+      link: "https://www.credly.com/badges/46ef1526-0393-4cf8-acdf-c98ecb274a92/public_url",
+      image: "/ai.png"
+    },
+    {
       title: "Introduction to IoT",
       issuer: "Cisco Networking Academy / Credly",
       link: "https://www.credly.com/badges/c1877d4f-6623-4ac6-8727-792582dc5872/public_url",
