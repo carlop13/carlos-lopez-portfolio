@@ -177,6 +177,12 @@ certifications: [
       image: "/preply.png"
     },
     {
+      title: "Ethical Hacker",
+      issuer: "Cisco Networking Academy / Credly",
+      link: "https://www.credly.com/badges/fb10bdb0-c46a-4c43-a871-c813393e82ef/public_url",
+      image: "/hack.png"
+    },
+    {
       title: "Introduction to Modern AI",
       issuer: "Cisco Networking Academy / Credly",
       link: "https://www.credly.com/badges/46ef1526-0393-4cf8-acdf-c98ecb274a92/public_url",
