@@ -285,7 +285,7 @@ certifications: [
   ],
 languages: [
     { name: "🇲🇽 Spanish", level: "Native" },
-    { name: "🇬🇧 English", level: "B2 - High Intermediate", certificate: "https://es-backend-0-0-0.appspot.com.storage.googleapis.com/b126abf5-4c6a-4bb8-9c24-012ef7cb11b9/cdcff30c-b8b8-4822-b3a1-7c5da050e96a.pdf?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=heroku-es-backend%40es-backend-0-0-0.iam.gserviceaccount.com%2F20261020%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261020T165158Z&X-Goog-Expires=1800&X-Goog-SignedHeaders=host&x-goog-signature=a24b3cf6060822a0097d59a7715de9e315ce042c070ce547a9cd1c2ba0943ae5507bf03b90b8031f5420fd8d5c7b2f5200b763da32ef03469062c9ca0b228ff89cca597abae9d7a93f905d7f7acbd2ad995d688d7c3b7a3431107b92135577f5a9011b1f56889c2735abf088729b42cd2be18cbb676c2014e4035855a6d078a33bc62b319368b287d0d13b89507823027fdc317e5a21c39b0b1fba3077a6296acbfdae8200ab71ff56a7fb965083b53a1286b8712b1ee375ea209cac03d8392c6c8a596caf0dc42fb61be5e24d6ea47bf237bf5f8defe06496e81e437740b4e193127efa68b79f192f557a27a4da54635da8b937b604c9ac27ec7de09c891fd0" },
+    { name: "🇬🇧 English", level: "B2 - High Intermediate", certificate: "https://drive.google.com/file/d/13kadhtA4BNygOty0su5K-jOeL_U-BeJD/view?usp=sharing" },
     { name: "🇫🇷 French", level: "A2 - Basic", certificate: "https://drive.google.com/file/d/1Ip06ElokgBmIz6JhULiBi4WhWjv-WdHr/view?usp=sharing" }
   ]
 };
